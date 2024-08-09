@@ -188,6 +188,9 @@ In details, this flowchart shows the function of each step and the relevant inpu
    script can read in, otherwise would cause error. By default, this script read in .rsa files from 
    the same directory it is located in. You can change the output pathway in the "naccess" scrip.
 
+### Examples:  
+The .pdb file and the resulted output files calculated by tool CBR for protein complex insulin (PDB: 2ptc) is given as an example.
+
 ## 2. Tool CRM: crm.ipynb
 
 ### Required input: --- for each subunit   
@@ -382,21 +385,22 @@ This work only able to give a .ipynb notebook to run manually instead of a comme
 If any of the three "mutation" happen during alignment, the method (in step 3.2) for calculation has to be manually decided to ensure correct output. If performing "for addition and substitution", the index in step 3.3 also need to be changed correspondingly (see the flowchart above and the ***Example 2*** below).
 However, from testing, this code is not yet perfect and doesn't 100% solve all situation, as the substituted codes can not be output correctly in table if there is a more than one mutation at the same time (e.g. combined substitution and deletion) and the index of these substituted codes need a manual check. But this code at least give an solution to enable calculation for most of the cases. Suggestions for improvement are welcome!
 
+### Examples:
 The cam.ipynb file in repository is given as a template to show the framework. In addition, four pairs of files are also given to show example usage that : 
 - Perfect alignment --- best alignment = alignments[0]
 - Non perfect alignment --- best alignment ≠ alignments[0]
 
 > **Example 1:** "no mutation" and "perfect alignment"  
-<cal_5w3f_A_P09733> and <cal_5w3f_B_P02557>
+<crm_5w3f_A_P09733> and <crm_5w3f_B_P02557>
 
 > **Example 2:** "has mutation" (substitution or addition) and "non perfect alignment, but no manual sequence removal + add back" 
-<cal_1id3_A_P61830.ipynb> 
+<crm_1id3_A_P61830.ipynb> 
 
 > **Example 3:** "has mutation" (deletion) and "non perfect alignment, but no manual sequence removal + add back" 
-<cal_8dar_A-AB_P25694.ipynb> and <cal_8dar_B-AB_P25694.ipynb>
+<crm_8dar_A-AB_P25694.ipynb> and <crm_8dar_B-AB_P25694.ipynb>
 
 > **Example 4:** "has mutation" (deletion)" and "non perfect alignment, that has manual sequence removal + add back" 
-<cal_3o8o_A_P16861.ipynb> and <cal_3o8o_B_P16862.ipynb>
+<crm_3o8o_A_P16861.ipynb> and <crm_3o8o_B_P16862.ipynb>
   
 
 ## Reference
