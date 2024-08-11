@@ -18,6 +18,7 @@ A single two-subunit complex are highlighed in each model, with one subunit colo
 
 ![PDB models](figures/PDB_models.svg)
 
+---
 
 ## Description
 This repository contain two Python scripts that provide tools to work on protein complex that contains at least two subunits.
