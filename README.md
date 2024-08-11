@@ -18,7 +18,6 @@ A single two-subunit complex are highlighed in each model, with one subunit colo
 
 ![PDB models](figures/PDB_models.svg)
 
----
 
 ## Description
 This repository contain two Python scripts that provide tools to work on protein complex that contains at least two subunits.
@@ -119,6 +118,7 @@ In details, this flowchart shows the function of each step and the relevant inpu
 
 ![flowchart](figures/flowchart.svg)
 
+---
 
 ## Usage Instructions
 
@@ -403,6 +403,7 @@ The cam.ipynb file in repository is given as a template to show the framework. I
 > **Example 4:** "has mutation" (deletion)" and "non perfect alignment, that has manual sequence removal + add back" 
 <crm_3o8o_A_P16861.ipynb> and <crm_3o8o_B_P16862.ipynb>
   
+---
 
 ## Reference
 Naccess --- Solvent accessible area calculations (S. Hubbard and J. Thornton, 1992)
