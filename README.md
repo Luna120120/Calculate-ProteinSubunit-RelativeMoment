@@ -120,7 +120,7 @@ In details, this flowchart shows the function of each step and the relevant inpu
 
 ## Usage Instructions
 Plese see the repository wiki for detailed usage instructions
-1. [Tool CBR](https://github.com/Luna120120/Calculate-ProteinSubunit-RelativeMoment.wiki.git)
+1. [Tool CBR](https://github.com/Luna120120/Calculate-ProteinSubunit-RelativeMoment/wiki/Usage-Instructions-%E2%80%90%E2%80%90%E2%80%90-1.-Tool-CBR:-cbr.py---cbr.ipynb)
 2. [Tool CRM](https://github.com/Luna120120/Calculate-ProteinSubunit-RelativeMoment/wiki/Usage-Instructions-%E2%80%90%E2%80%90%E2%80%90-2.-Tool-CRM:-crm.ipynb)
 
 ---
